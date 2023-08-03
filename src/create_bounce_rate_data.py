@@ -46,7 +46,7 @@ for node in G.nodes():
     if i % 1000 == 0:
         print(f"{i} out of {len(G.nodes())} nodes")
 
-bounce_rate_df = pd.DataFrame({"name": node_names, "bounce_rate": bounce_rates})
+bounce_rate_df = pd.DataFrame({"node": node_names, "bounce_rate": bounce_rates})
 bounce_rate_df.to_csv("data/bounce_rates.csv")
 
 print(bounce_rate_df.describe())
