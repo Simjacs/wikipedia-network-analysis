@@ -13,4 +13,7 @@ However, the packages are all listed in `requirements.txt`
 
 # Structure
 The code expects a directory called `data/` which contains all of the input and output data
-- The code, except for the exploration notebook is all in `src/`
+The code itself, except for the exploration notebook, is all in `src/`
+
+### Presentation link:
+https://docs.google.com/presentation/d/1zr7xkik3M7TilHHqhWDHSG16lsElXR60A2FPIpwgL-8/edit?usp=sharing
