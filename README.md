@@ -12,5 +12,5 @@ If you are familiar with it, please use the `poetry.lock` and `pyproject.toml` f
 However, the packages are all listed in `requirements.txt` 
 
 # Structure
-- All the data (both input and output) is in `data/`
+The code expects a directory called `data/` which contains all of the input and output data
 - The code, except for the exploration notebook is all in `src/`
